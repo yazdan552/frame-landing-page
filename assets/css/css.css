@@ -7,6 +7,47 @@ body{
     font-family:'Open Sans';
     margin: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
+/* start nav */
+nav{
+    padding: 15px 0;
+    width: 100%;
+
+    position: absolute;
+    top: 60px;
+    left: 0;
+
+
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: rgb(212, 211, 211);
+}
+.nav_box{
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav_brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+.nav_links{
+    display: flex;
+    align-items: center;
+}
+.nav_links a{
+    padding: 0 10px;
+}
+
+/* end nav */
+
 /* start header */
 .header{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../imgs/image_1.jpg);
